@@ -1,8 +1,10 @@
 # Docker-Wordmove
 
 ## What's inside?
+* ubuntu 14.04
 * wordmove
 * rsync
+* curl
 * mysql-client-5.5
 * END RUBYOPT="-KU -E utf-8:utf-8"
 
