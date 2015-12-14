@@ -9,8 +9,9 @@ MAINTAINER Melchior Wom Füzesi <mfuezesi@gmail.com>
 
 RUN apt-get update
 RUN apt-get install -y \
-  rsync \
+  openssh-server
   curl \
+  rsync \
   mysql-client-5.5
 RUN \gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 RUN \curl -sSL https://get.rvm.io | bash -s latest
