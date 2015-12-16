@@ -9,7 +9,7 @@ MAINTAINER Melchior Wom Füzesi <mfuezesi@gmail.com>
 
 RUN apt-get update
 RUN apt-get install -y \
-  openssh-server
+  openssh-server \
   curl \
   rsync \
   mysql-client-5.5
